@@ -1,0 +1,88 @@
+extended_attributes = """
+null
+
+"""
+breath = 11
+name = snoop
+position = (-2633.1,35,-536.83)
+version = 1
+hp = 20
+pitch = -4.91
+yaw = 269.95
+PlayerArgsEnd
+List main 32
+Width 0
+Empty
+Item monorail:booster
+Item worldedit:wand
+Item travelnet:travelnet 99
+Item default:glass 99
+Item monorail:slider_vertical
+Item default:sand 5
+Item monorail:cart 98
+Item protector:tool
+Item protector:protect
+Item default:gravel
+Item monorail:accelerator_on
+Item monorail:transport_cart 99
+Item monorail:break
+Item mesecons_torch:mesecon_torch_on
+Item default:flint
+Item default:dirt
+Item default:coal_lump
+Item default:snow
+Item monorail:accelerator_off
+Item technic:lead_lump
+Item default:snowblock
+Empty
+Item default:bush_leaves
+Item default:bush_stem
+Item default:torch 99
+Item basic_robot:spawner 99
+Item default:cobble
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List hand 1
+Width 0
+Empty
+EndInventoryList
+List craft 9
+Width 3
+Item mesecons_torch:mesecon_torch_on
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+List bag1 1
+Width 0
+Empty
+EndInventoryList
+List bag2 1
+Width 0
+Empty
+EndInventoryList
+List bag3 1
+Width 0
+Empty
+EndInventoryList
+List bag4 1
+Width 0
+Empty
+EndInventoryList
+EndInventory

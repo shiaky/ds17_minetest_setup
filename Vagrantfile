@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
   MINETEST_GID = 995
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "mods", "/usr/share/minetest/mods", owner: MINETEST_UID, group: MINETEST_GID 
+  Dir.mkdir("gamedata") unless File.exists?("gamedata")
   config.vm.synced_folder "gamedata", "/var/lib/minetest/", owner: MINETEST_UID, group: MINETEST_GID
   config.vm.synced_folder "etcminetest", "/etc/minetest/", owner: MINETEST_UID, group: MINETEST_GID
   

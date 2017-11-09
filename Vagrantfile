@@ -32,6 +32,3 @@ Vagrant.configure("2") do |config|
   SHELL
 
 end
-
-# sudo find /var/lib/minetest -name "world.mt" -exec sudo sed -i '/^load_mod_/ s/ false/ true/' {} \\;
-# sudo sed -i '/^load_mod_/ s/ false/ true/' /var/lib/minetest/datenspuren/world.mt
